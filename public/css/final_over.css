@@ -1,0 +1,42 @@
+.btn-blue {
+	background-color: rgb(79, 193, 238);
+	color: white;
+}
+
+.btn-blue:hover {
+	background-color: rgba(128, 205, 236, 0.74);
+}
+
+.btn-red {
+	background-color: rgb(238, 137, 79);
+	color: white;
+}
+
+.btn-red:hover {
+	background-color: rgba(238, 205, 236, 0.74);
+}
+
+.btn-green {
+	background-color: rgb(144, 238, 144);
+	color: white;
+}
+
+.btn-green:hover {
+	background-color: rgba(144, 205, 236, 0.74);
+}
+
+.rate_per_hr {
+	float: right;
+}
+
+#timesheet_preview {
+	margin-right: 10px;
+}
+
+input:read-only {
+	background-color: rgba(180, 180, 180, 0.24);
+}
+
+input[type="checkbox"][readonly] {
+	pointer-events: none;
+}

@@ -1,0 +1,198 @@
+body {padding-top: 50px;}
+.starter-template {padding:15px 0px;/*text-align: center;*/}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #ccc; 
+  /*height: 60px;
+  background-color: #f5f5f5;*/
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body > .container {margin:0px;width:100%;padding-left:5px;padding-right:5px;}
+.container .text-muted {margin: 20px 0;text-align: center;}
+.footer > .container {padding-right: 15px;padding-left: 15px;}
+code {font-size: 80%;}
+/*----------------- Custom -----------------*/
+.table-hover>tbody>tr:hover {background-color:rgba(86,61,124,.15);}
+.no-left-padd{padding-left: 0px;}
+.lr-padd{padding-top: 5px;padding-bottom: 5px;overflow: hidden;}
+.add_task{width: 100%;display: inline-block;text-align: center; }
+.icon-center{display: block;text-align: center; }
+select.form-control{font-weight: 500;}
+.task-close {color : #a94442;}
+.task-close:hover {color : #a94442;}
+.task-save {color : #3c763d;}
+.task-save:hover {color : #2C9301;}
+/*-----------------  Loding Bar -----------------*/
+.loading-bar{position: absolute;z-index: 1;width: 100%;height: 100%;background: rgb(165, 165, 165);opacity: 0.5;display:none;}
+.loading-inner {width: 30%;text-align: center;display: block;margin: auto auto;margin-top: 15%;}
+
+
+.navbar-inverse, .navbar-inverse .navbar-nav > .active > a  {
+	-webkit-transition: background-color 500ms ease-out 1s;
+	-moz-transition: background-color 500ms ease-out 1s;
+	-o-transition: background-color 500ms ease-out 1s;
+	transition: background-color 500ms ease-out 1s;
+	/*
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+	*/
+}
+/*---------- Updates ----------*/
+.footer p.text-muted {color: #000;}
+button.btn {min-width:100px;}
+.navbar-brand {padding: 0px;}
+.header_logo{height: 50px;}
+img.header_logo {padding: 5px 25px 5px 0px;}
+.navbar-inverse {background-color: #ccc;/*background-image: url('../images/slide-back.png');*/}
+.navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus {color:#000;}
+.navbar-inverse .navbar-nav>.active>a {background-color: #9d9d9d;}
+.navbar-inverse .navbar-nav>li>a {color: #373737;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover {background-color: #9d9d9d;}
+/*#navbar ul li a {min-height:60px;}*/
+.footer{overflow: hidden;border-top: 1px solid black;}
+.navbar-inverse .navbar-toggle {background-color: #000;}
+.table a {font-size: 16px;}
+.starter-template, .ovrhid {overflow: hidden;}
+.red_txt {color: #bf0043;font-weight: bold;}
+.user_txt {display: block;padding: 15px 15px;}
+.task_add{display: block;width: 20%;}
+.form-control.timepicker {width:70%;}
+.center_save{text-align:center;display: block;font-size:25px;}
+.navbar-brand {padding:0px 15px 15px 15px !important;}
+.logout-size{font-size:20px;}
+.logout-size span{padding: 0px 17px 0px 25px;}
+table#tbl_list_entry{padding:0px;}
+.add_filter{padding-bottom:10px;overflow:hidden;}
+.remove-mtop{margin-top:0px !important;}
+.pos-rel{position: relative;}
+.wid-3_4{width:75% !important;}
+#tbl_list .pos-rel.task-desc .tooltip.fade.top {left:1% !important;}
+#remove_html{display:none;}
+.est_txt{padding:5px 0px 1px;}
+.navbar .container{width:100%;}
+.tbl_row_scroll_entry{max-height:070px;overflow-y:auto;overflow-x:hidden;}
+.tbl_row_scroll_progr{max-height:125px;overflow-y:auto;overflow-x:hidden;}
+.tbl_row_scroll_list  {max-height:050px;overflow-y:auto;overflow-x:hidden;}
+
+.pagination ul {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.pagination li {
+    display: inline;
+}
+.pagination {
+    height: 36px;
+    margin: 18px 0;
+}
+.pagination a {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    float: left;
+    line-height: 34px;
+    padding: 0 14px;
+    text-decoration: none;
+}
+li {
+    color: #808080;
+    line-height: 18px;
+}
+
+.pagination .totalcount {
+    font-weight: bold;
+    line-height: 34px;
+    padding: 0 14px;
+}
+.pagination a:hover, .pagination .active a {
+    background-color: #c7eefe;
+}
+
+.validation_errors {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+	padding:10px;
+	margin-bottom: 15px;
+}
+
+.platform_technology .col-sm-6 {
+    background: white none repeat scroll 0 0;
+    height: 125px;
+    margin: 10px 0 0 0;
+    overflow-y: scroll;
+}
+
+.value_field{
+margin-top:10px;
+}
+
+/*Timesheet page style*/
+.form-radio.form-radio-inline {
+    display: inline-block;
+    padding-right: 10px;
+}
+.type-container .field-inline{    
+    padding: 2px;
+    width: 50%;
+    float: left;
+}
+.employee_list .container-box{
+    background: white none repeat scroll 0 0;
+    height: 125px;    
+    overflow-y: scroll;
+    padding: 0px 10px;
+}
+.employee_list .employees{
+    
+}
+.timesheet-action .btn{
+    display: block;
+}
+#tbl_list{
+    margin-bottom: 0px;
+}
+.bold-16{
+    font-size: 16px;
+    font-weight: bold;
+}
+.ajax-loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.overlay{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate3d(0,-50%,0);
+    left: 0;
+    right: 0;
+}
