@@ -106,7 +106,7 @@ class User extends CI_Controller
 	{
 		$designationDetails = $this->user_detail->user_designation($designationICode);
 		$leadArray = ['Project Leader', 'Project Manager', 'Associate PM', 'Associate PL'];
-		$accountantArray = ['Sr.Accounts Executive', 'Senior Finance Manager', 'Finance Manager', 'Assistant Manager- Finance', 'Assistant Mananger-Accounts'];
+		$accountantArray = ['Accounts Executive','Sr.Accounts Executive', 'Senior Finance Manager', 'Finance Manager', 'Assistant Manager- Finance', 'Assistant Mananger-Accounts'];
 		$designation = $designationDetails[0]['Designation'];
 		$userRole = '';
 		if (strpos($designation, 'HR') !== false) {
